@@ -9,7 +9,7 @@ Open it in Jupyter Notebook.
 Open the ipython notebook and run it.
 ~~~
 # Logic Behind Prediction
-Agglomerative clustering is applied on a small subset of dataset and the data points are clustered based on date of pickup and latitude,longitude of the pickup point as agglomerative  clustering can't be applied on a large dataset. Then k-nearest neighbour is applied to get the labels for all the remaining points.Hence we have clustered the data points.Then we draw a scatter plot with day on the x-axis and the label on the y-axis. We also the lat-long on x and y axis for each data label and by the use of all of these plots we can see on which day we have to place the driver at what place.
+Agglomerative clustering is applied on a small subset of dataset and the data points are clustered based on date of pickup and latitude,longitude of the pickup point as agglomerative  clustering can't be applied on a large dataset. Then k-nearest neighbour is applied to get the labels for all the remaining points.Hence we have clustered the data points.Then we draw a scatter plot with day on the x-axis and the label on the y-axis. We also the lat-long on x and y axis for each data label and by the use of all of these plots we can see on which day we have to place the cab at what place.
 # Demo
 ![](https://github.com/HarshitNITT/predicting_uber_driving_centers/blob/master/images/demo_1.png)
 ![](https://github.com/HarshitNITT/predicting_uber_driving_centers/blob/master/images/demo_2.png)
